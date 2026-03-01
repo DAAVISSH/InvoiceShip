@@ -17,6 +17,19 @@ Built for freelancers, agencies, and small businesses that need a clean invoicin
 
 ---
 
+## Screenshots
+
+### API Endpoints (Swagger UI)
+![Swagger UI](swagger.png)
+
+### Generated PDF Invoice
+![PDF Invoice](invoice-pdf.png)
+
+### Email Delivery
+![Email Preview](email-preview.png)
+
+---
+
 ## Tech Stack
 
 - **Python 3.13**
@@ -127,4 +140,5 @@ Update status via PATCH /invoices/{id}/status with body:
 ```bash
 docker build -t invoiceship .
 docker run -p 8000:8000 --env-file .env invoiceship
+
 ```
